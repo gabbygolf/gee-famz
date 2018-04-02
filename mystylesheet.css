@@ -1,0 +1,55 @@
+body{
+	background-color:brown;
+}
+
+.nav{
+	text-align:center;
+	list-style:none;
+    padding:0.5em;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+#addNew{
+	background-color:grey;
+	border:1px solid #ccc;
+	border-radius:50px;
+	cursor: pointer;
+}
+
+#allContacts{
+	background-color:grey;
+	border:1px solid #ccc;
+	border-radius:50px;
+	cursor: pointer;
+}
+
+#nowSubmit{
+	cursor: pointer;
+}
+
+#addName{
+	width:700px;
+}
+
+#submitButton{
+	text-align:center;
+}
+
+#imageAdd{
+	text-align:center;
+}
+
+#mySubmit{
+	margin-right:9%;
+	width:200px;
+}
+
+#newAdd{
+	background-color:white;
+}
+
+#contactList{
+	background-color:white;
+}
