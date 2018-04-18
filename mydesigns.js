@@ -1,4 +1,5 @@
-$('#addNew').click(function() {
+$(document).ready(function(){
+$('#addNew').on('click',function() {
   $('#newAdd').show();
 });
 
@@ -7,3 +8,4 @@ $('#allContacts').click(function() {
     // Animation complete.
   });
 });
+}

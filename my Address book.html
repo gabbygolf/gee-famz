@@ -3,6 +3,7 @@
 <head>
 	<title>Address Book</title>
 	<link rel='stylesheet' href='mystylesheet.css'>
+	<meta charset="UTF-8">
 </head>
 <body>
 	<div id='navigation'>
@@ -23,8 +24,8 @@
 		<form id='addPanel'>
 			<h2>Add to Contact List</h2>
 			<div id='imageAdd'>
-				<label for="profile_pic">Image file</label>
-				<input type='file' id='addImage' name='addImage' accept=".jpg, .jpeg, .png">
+				<label for="profile_pic">Image file:</label>
+				<input type='file' id='addImage' name='addImage' accept=".jpg, .jpeg, .png"/>
 			</div><br>
 			<div>
 				<label for='addName'>Name:</label>
@@ -39,14 +40,14 @@
 				<input type='text' name='addEmail' id='addName' placeholder='famuyiwag@gmail.com'/>
 			</div><br>
 			<div id='submitButton'>
-				<input type='submit' value='add' id='mySubmit'/>
+				<input type='submit' value='add' id="mySubmit"/>
 			</div><br>
 		</form>
 	</div>
 	<div id='contactList' class='listPanel'>
 	
 	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
 	<script src="mydesigns.js"></script>
 </body>
 </html>
